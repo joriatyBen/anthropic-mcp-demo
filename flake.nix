@@ -10,7 +10,7 @@
       system: let
         pname = "python dev environment";
         pkgs = nixpkgs.legacyPackages."${system}";
-        venvDir = "venvDir";
+        venvDir = ".venv";
       in
         rec {
           inherit pname;
